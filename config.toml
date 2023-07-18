@@ -8,7 +8,7 @@ build-mindetach-module = true
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 version = "auto"
-included-patches = "custom-branding disable-shorts-on-startup external-downloads hdr-auto-brightness hide-ads hide-breaking-news-shelf minimized-playback old-video-quality-menu open-links-externally premium-heading remember-video-quality return-youtube-dislike tablet-mini-player video-ads video-speed custom-video-buffer"
+included-patches = "custom-branding external-downloads hdr-auto-brightness hide-ads hide-breaking-news-shelf minimized-playback old-video-quality-menu open-links-externally premium-heading remember-video-quality return-youtube-dislike seekbar-tapping swipe-controls video-ads video-speed custom-video-buffer"
 exclusive-patches = true
 
 [Twitch]
@@ -17,8 +17,12 @@ version = "auto"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+rv-brand = "ReVanced Extended"
 version = "auto"
-excluded-patches = "vanced-microg-support"
+included-patches = "custom-branding-icon-revancify-red"
+excluded-patches = "custom-branding-icon-revancify-blue custom-package-name enable-force-minimized-player enable-force-shuffle enable-landscape-mode enable-zen-mode hide-carousel-shelf hide-cast-button hide-category-bar hide-navigation-label hide-new-playlist-button hide-playlist-card hide-taste-builder microg-support remember-video-quality share-button-hook spoof-app-version"
 
 [Tiktok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
