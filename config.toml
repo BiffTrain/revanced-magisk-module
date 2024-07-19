@@ -6,33 +6,43 @@ enable-magisk-update = false   # set this to false if you do not want to receive
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+enabled = true # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
 [Messenger]
+enabled = false # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/facebook-2/messenger/"
 
-[Brainrot]
+[TikTok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+app-name = "Brainrot"
 included-patches = "'SIM spoof'"
 excluded-patches = "'Disable login requirement'"
 
 [Twitch]
+enabled = false # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [Music]
+enabled = false # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 
 [Instagram]
+enabled = false # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
 
 [Reddit]
+enabled = true # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
 [Twitter]
+enabled = true # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+version = "10.49.0-release.0"
 
 [Lightroom Mobile]
+enabled = true # whether to build the app. default: true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom/"
-version = "9.3.1"
+version = "9.4.0"
 
 
