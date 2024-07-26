@@ -1,6 +1,6 @@
 Reddit: 2024.17.0  
-YouTube: 19.16.39  
 Twitter: 10.49.0-release.0  
+YouTube: 19.16.39  
 TikTok: 32.5.3  
 LightroomMobile: 9.4.0  
 
