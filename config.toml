@@ -44,7 +44,7 @@ version = "10.49.0-release.0"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/adobe/lightroom"
 app-name = "Lightroom Mobile"
 arch = "arm64-v8a"
-version = "9.4.1"
+version = "9.3.0"
 included-patches = "'Unlock premium'"
 exclusive-patches = true
 
