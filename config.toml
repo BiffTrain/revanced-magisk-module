@@ -46,6 +46,7 @@ exclusive-patches = true
 
 [Music]
 enabled = true # whether to build the app. default: true
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 included-patches = "'Permanent repeat' 'Permanent shuffle'"
