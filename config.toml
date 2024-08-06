@@ -23,10 +23,6 @@ excluded-patches = "'Disable login requirement'"
 enabled = false # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
-[Music]
-enabled = false # whether to build the app. default: true
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-
 [Instagram]
 enabled = false # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
@@ -48,10 +44,10 @@ version = "9.3.0"
 included-patches = "'Unlock premium'"
 exclusive-patches = true
 
-[YouTube Music]
+[Music]
+enabled = true # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
-version = "7.04.51"
+version = "auto"
 included-patches = "'Permanent repeat' 'Permanent shuffle'"
 excluded-patches = "'GmsCore support'"
 
