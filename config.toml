@@ -47,7 +47,7 @@ exclusive-patches = true
 [Music]
 enabled = true # whether to build the app. default: true
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-version = "auto"
+arch = "both"
 included-patches = "'Permanent repeat' 'Permanent shuffle'"
 excluded-patches = "'GmsCore support'"
 
